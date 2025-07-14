@@ -37,15 +37,11 @@
             "groups": [
               {
                 "group": "API Consumer",
-                "openapi": {
-                  "source": "api-reference/swagger-consumer.json"
-                }
+                "openapi":  "api-reference/swagger-consumer.json"
               },
               {
                 "group": "API Corporate",
-                "openapi": {
-                  "source": "api-reference/swagger-corporate.json"
-                }
+                "openapi": "api-reference/swagger-corporate.json"
               }
             ]
           }
