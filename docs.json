@@ -8,7 +8,6 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "openapi": "api-reference/openapi.json",
   "navigation": {
     "tabs": [
       {
@@ -47,78 +46,7 @@
           {
             "group": "Consumer",
             "pages": [
-              {
-                "page": "Authentication - Mobile Signin",
-                "openapi": "POST /auth/signin-mobile"
-              },
-              {
-                "page": "Authentication - Email Signin",
-                "openapi": "POST /auth/signin"
-              },
-              {
-                "page": "Authentication - Send OTP",
-                "openapi": "POST /auth/send-otp-mobile"
-              },
-              {
-                "page": "Authentication - Verify OTP",
-                "openapi": "POST /auth/verify-otp-mobile"
-              },
-              {
-                "page": "Account Summary",
-                "openapi": "GET /account"
-              },
-              {
-                "page": "Account Rewards",
-                "openapi": "POST /account/reward/claim"
-              },
-              {
-                "page": "Card Management - Get Cards",
-                "openapi": "GET /card"
-              },
-              {
-                "page": "Card Management - Activate",
-                "openapi": "POST /card/{id}/activate"
-              },
-              {
-                "page": "Card Management - Secure",
-                "openapi": "POST /card/{id}/secure"
-              },
-              {
-                "page": "Wallet - Get Balance",
-                "openapi": "GET /wallet/balance"
-              },
-              {
-                "page": "Wallet - Deposit",
-                "openapi": "POST /wallet/deposit"
-              },
-              {
-                "page": "Wallet - Withdrawal",
-                "openapi": "POST /wallet/withdrawal"
-              },
-              {
-                "page": "Transactions - Get All",
-                "openapi": "GET /transaction"
-              },
-              {
-                "page": "Transactions - Get by ID",
-                "openapi": "GET /transaction/{id}"
-              },
-              {
-                "page": "KYC - Submit",
-                "openapi": "POST /kyc"
-              },
-              {
-                "page": "KYC - Get Status",
-                "openapi": "GET /kyc/{id}"
-              },
-              {
-                "page": "Notifications - Get All",
-                "openapi": "GET /notification"
-              },
-              {
-                "page": "Notifications - Get by ID",
-                "openapi": "GET /notification/{id}"
-              }
+              "api-reference/openapi.json"
             ]
           }
         ]
