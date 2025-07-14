@@ -44,7 +44,53 @@
             ]
           },
           {
-            "group": "Consumer"
+            "group": "Consumer",
+            "pages": [
+              {
+                "page": "Authentication",
+                "openapi": "tag:Authentication"
+              },
+              {
+                "page": "Account Summary",
+                "openapi": "tag:Account Summary"
+              },
+              {
+                "page": "Card Management",
+                "openapi": "tag:Card Management"
+              },
+              {
+                "page": "Wallet Operations",
+                "openapi": "tag:Wallet"
+              },
+              {
+                "page": "Transactions",
+                "openapi": "tag:Transactions"
+              },
+              {
+                "page": "KYC Verification",
+                "openapi": "tag:KYC"
+              },
+              {
+                "page": "Notifications",
+                "openapi": "tag:Notification"
+              },
+              {
+                "page": "Two-Factor Authentication",
+                "openapi": "tag:Two-Factor Authentication"
+              },
+              {
+                "page": "Captcha",
+                "openapi": "tag:Captcha"
+              },
+              {
+                "page": "Verification",
+                "openapi": "tag:Verification"
+              },
+              {
+                "page": "Master Data",
+                "openapi": "tag:Master Management"
+              }
+            ]
           }
         ]
       }
