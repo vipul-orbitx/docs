@@ -8,6 +8,7 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "openapi": "api-reference/openapi.json",
   "navigation": {
     "tabs": [
       {
@@ -47,48 +48,76 @@
             "group": "Consumer",
             "pages": [
               {
-                "page": "Authentication",
-                "openapi": "tag:Authentication"
+                "page": "Authentication - Mobile Signin",
+                "openapi": "POST /auth/signin-mobile"
+              },
+              {
+                "page": "Authentication - Email Signin",
+                "openapi": "POST /auth/signin"
+              },
+              {
+                "page": "Authentication - Send OTP",
+                "openapi": "POST /auth/send-otp-mobile"
+              },
+              {
+                "page": "Authentication - Verify OTP",
+                "openapi": "POST /auth/verify-otp-mobile"
               },
               {
                 "page": "Account Summary",
-                "openapi": "tag:Account Summary"
+                "openapi": "GET /account"
               },
               {
-                "page": "Card Management",
-                "openapi": "tag:Card Management"
+                "page": "Account Rewards",
+                "openapi": "POST /account/reward/claim"
               },
               {
-                "page": "Wallet Operations",
-                "openapi": "tag:Wallet"
+                "page": "Card Management - Get Cards",
+                "openapi": "GET /card"
               },
               {
-                "page": "Transactions",
-                "openapi": "tag:Transactions"
+                "page": "Card Management - Activate",
+                "openapi": "POST /card/{id}/activate"
               },
               {
-                "page": "KYC Verification",
-                "openapi": "tag:KYC"
+                "page": "Card Management - Secure",
+                "openapi": "POST /card/{id}/secure"
               },
               {
-                "page": "Notifications",
-                "openapi": "tag:Notification"
+                "page": "Wallet - Get Balance",
+                "openapi": "GET /wallet/balance"
               },
               {
-                "page": "Two-Factor Authentication",
-                "openapi": "tag:Two-Factor Authentication"
+                "page": "Wallet - Deposit",
+                "openapi": "POST /wallet/deposit"
               },
               {
-                "page": "Captcha",
-                "openapi": "tag:Captcha"
+                "page": "Wallet - Withdrawal",
+                "openapi": "POST /wallet/withdrawal"
               },
               {
-                "page": "Verification",
-                "openapi": "tag:Verification"
+                "page": "Transactions - Get All",
+                "openapi": "GET /transaction"
               },
               {
-                "page": "Master Data",
-                "openapi": "tag:Master Management"
+                "page": "Transactions - Get by ID",
+                "openapi": "GET /transaction/{id}"
+              },
+              {
+                "page": "KYC - Submit",
+                "openapi": "POST /kyc"
+              },
+              {
+                "page": "KYC - Get Status",
+                "openapi": "GET /kyc/{id}"
+              },
+              {
+                "page": "Notifications - Get All",
+                "openapi": "GET /notification"
+              },
+              {
+                "page": "Notifications - Get by ID",
+                "openapi": "GET /notification/{id}"
               }
             ]
           }
