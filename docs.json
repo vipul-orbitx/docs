@@ -36,8 +36,8 @@
       },
       {
         "tab": "API Reference",
-        "openapi": "https://api-qa.orbitxpay.com/swagger-consumer.json"
-      }
+        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+    }
     ],
     "global": {
       "anchors": [
