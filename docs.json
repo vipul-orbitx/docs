@@ -11,27 +11,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "API Reference",
         "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          },
           {
             "group": "API Consumer",
             "openapi": "api-reference/swagger-consumer.json"
