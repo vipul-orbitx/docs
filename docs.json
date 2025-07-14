@@ -33,10 +33,20 @@
             ]
           },
           {
-            "group": "API Reference",
-            "pages": [
-              "api-reference/swagger-corporate.json",
-              "api-reference/swagger-consumer.json"
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API Consumer",
+                "openapi": {
+                  "source": "api-reference/swagger-consumer.json"
+                }
+              },
+              {
+                "group": "API Corporate",
+                "openapi": {
+                  "source": "api-reference/swagger-corporate.json"
+                }
+              }
             ]
           }
         ]
