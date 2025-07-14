@@ -1478,10 +1478,6 @@
     },
     "servers": [
       {
-        "url": "https://api-qa.orbitxpay.com/api/v1/auth",
-        "description": "API server V1 Consumer Auth"
-      },
-      {
         "url": "https://api-qa.orbitxpay.com/api/v2/consumer",
         "description": "API server V2"
       }

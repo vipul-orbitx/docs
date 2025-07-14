@@ -31,16 +31,15 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/swagger-corporate.json",
+              "api-reference/swagger-consumer.json"
+            ]
           }
         ]
-      },
-      {
-        "tab": "Corporate V2 API",
-        "openapi": "api-reference/swagger-corporate.json"
-      },
-      {
-        "tab": "Consumer V2 API",
-        "openapi": "api-reference/swagger-consumer.json"
       }
     ],
     "global": {
