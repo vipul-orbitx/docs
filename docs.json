@@ -45,9 +45,7 @@
           },
           {
             "group": "Consumer",
-            "pages": [
-              "api-reference/openapi.json"
-            ]
+            "openapi": "https://api-qa.orbitxpay.com/swagger-consumer.json"
           }
         ]
       }
