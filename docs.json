@@ -36,18 +36,7 @@
       },
       {
         "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Consumer",
-            "openapi": "https://api-qa.orbitxpay.com/swagger-consumer.json"
-          }
-        ]
+        "openapi": "https://api-qa.orbitxpay.com/swagger-consumer.json"
       }
     ],
     "global": {
